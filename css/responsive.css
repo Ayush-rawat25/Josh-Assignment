@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+  .header {
+    padding: 20px 24px;
+    height: auto;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .hero-title {
+    font-size: 32px;
+    line-height: 120%;
+    max-width: 100%;
+   }
+   .hero-content {
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
