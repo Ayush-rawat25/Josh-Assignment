@@ -6,9 +6,18 @@
     <title>PorFolio</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -19,12 +28,12 @@
           </div>
           <div class="navright">
             <ul class="nav">
-              <li><a href="#" class="home">Home</a></li>
-              <li><a href="#">Skills</a></li>
-              <li><a href="#">Education</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Recommendations</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#" class="nav-link active">Home</a></li>
+              <li><a href="#" class="nav-link">Skills</a></li>
+              <li><a href="#" class="nav-link">Education</a></li>
+              <li><a href="#project" class="nav-link">Projects</a></li>
+              <li><a href="#recommendations" class="nav-link">Recommendations</a></li>
+              <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -49,11 +58,12 @@
         </div>
       </section>
 
-      <section class="projects">
+      <section class="projects" id="project">
         <div class="description">
           <h1>Projects</h1>
           <p>
-            Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint. Velit Officia Consequat Duis Enim Velit Mollit. Lorem Ipsum
+            Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet
+            Sint. Velit Officia Consequat Duis Enim Velit Mollit. Lorem Ipsum
           </p>
         </div>
         <div class="card-grid">
@@ -78,8 +88,8 @@
                 <span class="tag">MongoDB</span>
               </div>
             </div>
-           </div>
-           <div class="card">
+          </div>
+          <div class="card">
             <div class="card-image">
               <img src="assets/images/card2.png" alt="Card Header" />
             </div>
@@ -98,9 +108,9 @@
                 <span class="tag">CSS</span>
               </div>
             </div>
-           </div>
+          </div>
 
-           <div class="card">
+          <div class="card">
             <div class="card-image">
               <img src="assets/images/card3.png" alt="Card Header" />
             </div>
@@ -121,9 +131,9 @@
                 <span class="tag">MongoDB</span>
               </div>
             </div>
-           </div>
+          </div>
 
-           <div class="card">
+          <div class="card">
             <div class="card-image">
               <img src="assets/images/card4.png" alt="Card Header" />
             </div>
@@ -144,9 +154,9 @@
                 <span class="tag">MongoDB</span>
               </div>
             </div>
-           </div>
+          </div>
 
-           <div class="card">
+          <div class="card">
             <div class="card-image">
               <img src="assets/images/card1.png" alt="Card Header" />
             </div>
@@ -167,9 +177,9 @@
                 <span class="tag">MongoDB</span>
               </div>
             </div>
-           </div>
+          </div>
 
-           <div class="card">
+          <div class="card">
             <div class="card-image">
               <img src="assets/images/card5.png" alt="Card Header" />
             </div>
@@ -190,9 +200,357 @@
                 <span class="tag">MongoDB</span>
               </div>
             </div>
-           </div>
+          </div>
         </div>
       </section>
+
+      <section class="recommendations" id="recommendations">
+        <div class="recommend">
+          <h1>Recommendations</h1>
+          <p>
+            Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet
+            Sint. Velit Officia Consequat Duis Enim Velit Mollit. Lorem Ipsum
+          </p>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper" id="slider">
+            <div class="swiper-slide">
+              <div class="slider-card">
+                <div class="rating">
+                  <img src="assets/images/Rating.png" alt="" />
+                </div>
+                <h4 class="review">Great Quality!</h4>
+                <p class="desc">
+                  Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae
+                  Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec
+                  Amet....
+                </p>
+                <div class="person">
+                  <img src="assets/ProfilePictures/pp3.jpg" alt="" />
+                  <div class="detail">
+                    <h4>Talan Westervelt</h4>
+                    <p>Business man</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider-card">
+                <div class="rating">
+                  <img src="assets/images/Rating.png" alt="" />
+                </div>
+                <h4 class="review">Great Quality!</h4>
+                <p class="desc">
+                  Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae
+                  Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec
+                  Amet....
+                </p>
+                <div class="person">
+                  <img src="assets/ProfilePictures/pp1.jpg" alt="" />
+                  <div class="detail">
+                    <h4>James Gouse</h4>
+                    <p>Graphic Designer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider-card">
+                <div class="rating">
+                  <img src="assets/images/Rating.png" alt="" />
+                </div>
+                <h4 class="review">Amazing Work!</h4>
+                <p class="desc">
+                  Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae
+                  Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec
+                  Amet....
+                </p>
+                <div class="person">
+                  <img src="assets/ProfilePictures/pp2.jpg" alt="" />
+                  <div class="detail">
+                    <h4>Tiana Philips</h4>
+                    <p>Photographer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+            <div class="slider-card">
+                <div class="rating">
+                  <img src="assets/images/Rating.png" alt="" />
+                </div>
+                <h4 class="review">Great Quality!</h4>
+                <p class="desc">
+                  Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae
+                  Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec
+                  Amet....
+                </p>
+                <div class="person">
+                  <img src="assets/ProfilePictures/pp3.jpg" alt="" />
+                  <div class="detail">
+                    <h4>Talan Westervelt</h4>
+                    <p>Business man</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider-card">
+                <div class="rating">
+                  <img src="assets/images/Rating.png" alt="" />
+                </div>
+                <h4 class="review">Great Quality!</h4>
+                <p class="desc">
+                  Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae
+                  Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec
+                  Amet....
+                </p>
+                <div class="person">
+                  <img src="assets/ProfilePictures/pp1.jpg" alt="" />
+                  <div class="detail">
+                    <h4>James Gouse</h4>
+                    <p>Graphic Designer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- <div class="swiper-slide">
+              <div class="slider-card">
+                <div class="rating">
+                  <img src="assets/images/Rating.png" alt="" />
+                </div>
+                <h4 class="review">Great Quality!</h4>
+                <p class="desc">
+                  Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae
+                  Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec
+                  Amet....
+                </p>
+                <div class="person">
+                  <img src="assets/ProfilePictures/pp1.jpg" alt="" />
+                  <div class="detail">
+                    <h4>James Gouse</h4>
+                    <p>Graphic Designer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider-card">
+                <div class="rating">
+                  <img src="assets/images/Rating.png" alt="" />
+                </div>
+                <h4 class="review">Amazing Work!</h4>
+                <p class="desc">
+                  Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae
+                  Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec
+                  Amet....
+                </p>
+                <div class="person">
+                  <img src="assets/ProfilePictures/pp2.jpg" alt="" />
+                  <div class="detail">
+                    <h4>Tiana Philips</h4>
+                    <p>Photographer</p>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+           <div class="swiper-pagination"></div>
+          <!-- <div class="slider-dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div> -->
+        </div>
+      </section>
+      <section class="contact" id="contact">
+
+            <div class="contact-left">
+
+                <h1>Leave ME Your Info</h1>
+
+                <div class="form">
+
+                    <div class="name">
+                        <label>Your Full Name ( Required)</label>    
+                        <input type="text">
+                    </div>
+
+                    <div class="email">
+                        <label>Your Email ( Required)</label>
+                        <input type="email">
+                    </div>
+
+                    <div class="subject">
+                        <label>Subject</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="message">
+                        <label>Your Message</label>
+                        <textarea></textarea>
+                    </div>
+
+                    <button>SEND MESSAGE</button>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-right">
+
+                <h1>Contact Information</h1>
+
+                <div class="infobox">
+
+                    <div class="box">
+
+                        <div class="icon">
+                            <img src="assets/images/location.png" alt="">
+                        </div>
+
+                        <div class="contact-info">
+                            <div class="info-row">
+                                <span>Country:</span>
+                                <span class="small-text">Bangladesh</span>
+                            </div>
+                            
+                            <div class="info-row">
+                                <span>City:</span>
+                                <span class="small-text">Dhaka</span>
+                            </div>
+                            
+                            <div class="info-row">
+                                <span>Street:</span>
+                                <span class="small-text">35 Vhatara, Badda</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="box">
+
+                        <div class="icon">
+                            <img src="assets/images/mail.png" alt="">
+                        </div>
+
+                        <div class="contact-info">
+                            <div class="info-row">
+                                <span>Email:</span>
+                                <span class="small-text">Youremail@gmail.com</span>
+                            </div>
+                            
+                            <div class="info-row">
+                                <span>Skype:</span>
+                                <span class="small-text">@Yourusername</span>
+                            </div>
+                            
+                            <div class="info-row">
+                                <span>Telegram:</span>
+                                <span class="small-text">@Yourusername</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="box">
+
+                        <div class="icon">
+                            <img src="assets/images/mobile.png" alt="">
+                        </div>
+
+                        <div class="contact-info">      
+                            <div class="info-row">
+                                <span>Support Services:</span>
+                                <span  class="small-text"class="small-text">15369</span>
+                            </div>
+                            
+                            <div class="info-row">
+                                <span>Office:</span>
+                                <span class="small-text">+58 (021)356 587 235</span>
+                            </div>
+                            
+                            <div class="info-row">
+                                <span>Personal:</span>
+                                <span class="small-text">+58 (021)356 587 235</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer>
+            <div class="logos">
+                <img src="assets/images/Frame.png" alt="">
+                <img src="assets/images/Frame (1).png" alt="">
+                <img src="assets/images/Frame (2).png" alt="">
+                <img src="assets/images/Frame (3).png" alt="">
+            </div>
+
+            <div class="footer-logo"><img src="assets/logos/logo.png" alt=""></div>
+
+            <div class="bottom">
+                <div class="bottom-left">
+                    <div class="box1">
+                        <img src="assets/images/Rectangle 97.png" alt="">
+                        <p>4.5/5 rating on Lorem</p>
+                    </div>
+                    <div class="box1">
+                        <img src="assets/images/Rectangle 99.png" alt="">
+                        <p>9/10 rating on Ipsum</p>
+                    </div>
+                    <div class="box1">
+                        <img src="assets/images/Rectangle 100.png" alt="">
+                        <p>4.5/5 Rating on dorel</p>
+                    </div>
+                </div>
+                <div class="bottom-right">
+                    <div class="links">
+                      <h3>Quick Links</h3>
+                      <a href="#" class="link">Home</a>
+                      <a href="#" class="link">Skills</a>
+                      <a href="#" class="link">Education</a>
+                      <a href="#project" class="link">Projects</a>
+                      <a href="#recommendations" class="link">Recommendations</a>
+                    </div>
+                    <div class="links">
+                      <h3>Portfolio</h3>
+                      <p class="link">Frontend Development</p>
+                      <p class="link">Backend Development</p>
+                      <p class="link">Website Design</p>
+                      <p class="link">Machine Learning</p>
+                      <p class="link">Problem Solving & DSA</p>
+                    </div>
+                    <div class="links">
+                      <h3>Connect</h3>
+                      <img src="assets/images/LinkedIn.png" alt="Linkedin" class="link">
+                      <img src="assets/images/Instagram.png" alt="Instagram" class="link">
+                      <img src="assets/images/Facebook.png" alt="Facebook" class="link">
+                    </div>
+                </div>
+            </div>
+
+            <div class="cc">
+              <div class="cc-content">
+                <img src="assets/images/Vector.png" alt="CC">
+                <p>2024 Copyright, All right reserved</p>
+              </div>
+            </div>
+        </footer>
     </div>
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/slider-script.js"></script>
   </body>
 </html>
