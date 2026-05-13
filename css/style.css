@@ -681,23 +681,6 @@ footer {
   position: absolute;
 }
 
-.shapes img{
-  height: 23px;
-  width: 21px;
-}
-
-.s1{
-  /* padding-top: 40px;
-  padding-left: 58px; */
-  /* top: 10%;
-  right: 10%; */
-}
-
-.s2{
-  /* padding-top: 4px;
-  padding-left: 744px; */
-}
-
 .s1{
   top: 24.5%;
   right: 94.5%;
@@ -711,23 +694,27 @@ footer {
 .s3{
   bottom: 4.5%;
   right: 89.7%;
-  height: 43px;
-  width: 21px;
 }
 
 .s4{
   top: 31.5%;
-  right: 9.5%;
+  right: 9%;
 }
 
 .s5{
-  top: 77.5%;
-  left: 37.5%;
+  top: 77%;
+  left: 37%;
 }
 
 .s6{
   bottom: 4%;
   right: 7.2%;
+  z-index: 5;
+}
+
+.s7{
+  bottom: 12%;
+  right: 43%;
   z-index: 5;
 }
 
