@@ -74,6 +74,7 @@ header {
     justify-content:space-between;
     align-items:center; */
   /* margin-top: 152px; */
+  position: relative;
   height: 782px;
   background-color: #ffffff;
   padding-top: 152px;
@@ -82,6 +83,7 @@ header {
 .hero-img {
   position: relative;
   padding-top: 80px;
+  z-index: 2;
 }
 
 .heroImage {
@@ -674,3 +676,58 @@ footer {
 .cc{
   margin-bottom: 20px;
 }
+
+.shapes div{
+  position: absolute;
+}
+
+.shapes img{
+  height: 23px;
+  width: 21px;
+}
+
+.s1{
+  /* padding-top: 40px;
+  padding-left: 58px; */
+  /* top: 10%;
+  right: 10%; */
+}
+
+.s2{
+  /* padding-top: 4px;
+  padding-left: 744px; */
+}
+
+.s1{
+  top: 24.5%;
+  right: 94.5%;
+}
+
+.s2{
+  top: 28.5%;
+  left: 51.5%;
+}
+
+.s3{
+  bottom: 4.5%;
+  right: 89.7%;
+  height: 43px;
+  width: 21px;
+}
+
+.s4{
+  top: 31.5%;
+  right: 9.5%;
+}
+
+.s5{
+  top: 77.5%;
+  left: 37.5%;
+}
+
+.s6{
+  bottom: 4%;
+  right: 7.2%;
+  z-index: 5;
+}
+
